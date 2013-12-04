@@ -1,0 +1,24 @@
+' Gambas class file
+
+
+Public Sub cmdexit_Click()
+
+  If Message.Question("Keluar Program?", "Yes", "No") = 1 Then
+  Me.Close
+  Endif
+
+End
+
+Public Sub txtnama_KeyPress()
+
+  data.nama = txtnama.Text
+
+End
+
+Public Sub cmdlogin_Click()
+
+  Message("Isi Dengan Huruf Kecil...")
+  gfk.Show
+  login.Close
+
+End

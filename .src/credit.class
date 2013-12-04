@@ -1,0 +1,15 @@
+' Gambas class file
+
+
+Public Sub cmdok_Click()
+
+ Me.Close
+ If Message.Question("Main Lagi?", "Yes", "No") = 1 Then login.Show
+
+End
+
+Public Sub Label6_MouseDown()
+
+  
+
+End

@@ -1,0 +1,33 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(56.2857,25,60,35)
+  Text = ("Little Quiz")
+  Resizable = False
+  { Label1 Label
+    MoveScaled(9,3,45,8)
+    Font = Font["Bold,+9"]
+    Text = ("Welcome . . .")
+    Alignment = Align.Center
+  }
+  { txtnama TextBox
+    MoveScaled(12,13,46,6)
+    Font = Font["+3"]
+    Alignment = Align.Center
+  }
+  { Label2 Label
+    MoveScaled(2,13,10,6)
+    Font = Font["Bold,+1"]
+    Text = ("Name")
+  }
+  { cmdlogin Button
+    MoveScaled(12,22,18,7)
+    Font = Font["+2"]
+    Text = ("Enter")
+  }
+  { cmdexit Button
+    MoveScaled(33,22,18,7)
+    Font = Font["+2"]
+    Text = ("Exit")
+  }
+}

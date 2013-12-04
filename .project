@@ -1,0 +1,24 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.1.1
+Title=Game For Kids
+Startup=login
+Version=0.0.2
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+TabSize=2
+SourcePath=/media/ntfs/College/Semester III/Teknik Pemrograman/TugasAkhirSemester3
+Maintainer=Lazuardi Nuansa Putra
+Address=lazuardi@Lazuardi-PC
+License=General Public License
+PackageName=tugasakhirsemester3-0.0
+Packager=1
+Systems=fedora,ubuntu
+SameDependencies=1
+SameFiles=1
+Menus=fedora:"Game/Kids Game"
+Categories=fedora:"Game;KidsGame"
+Groups=fedora:"Amusements/Games"
+ExtraDependencies=fedora:"\t\t"
+Menus=ubuntu:"Games/Toys"
+Groups=ubuntu:"games"

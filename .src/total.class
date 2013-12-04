@@ -1,0 +1,16 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+data.total = data.nilai1 + data.nilai2 + data.nilai3 + data.nilai4 + data.nilai5
+lblname.Text = data.nama
+lblscore.Text = data.total
+End
+
+Public Sub cmdok_Click()
+
+  Me.Close
+  credit.Show
+
+End

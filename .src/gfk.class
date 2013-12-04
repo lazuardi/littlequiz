@@ -1,0 +1,79 @@
+' Gambas class file
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+lblsoal.Text = data.soal1
+lblsoalke.Text = 1
+lblplayer.Text = data.nama
+End
+
+Public Sub cmdexit_Click()
+
+  Me.Close
+
+End
+
+Public Sub cmdnext_Click()
+
+  If lblsoal.Text = data.soal1 And txtjawab.Text = data.jawab1 Then
+    data.nilai1 = 10
+    lblsoalke.Text = 2
+    lblsoal.Text = data.soal2
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal1 And txtjawab.Text <> data.jawab1 Then
+    data.nilai1 = 0
+    lblsoalke.Text = 2
+    lblsoal.Text = data.soal2
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal2 And txtjawab.Text = data.jawab2 Then
+    data.nilai2 = 10
+    lblsoalke.Text = 3
+    lblsoal.Text = data.soal3
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal2 And txtjawab.Text <> data.jawab2 Then
+    data.nilai2 = 0
+    lblsoalke.Text = 3
+    lblsoal.Text = data.soal3
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal3 And txtjawab.Text = data.jawab3 Then
+    data.nilai3 = 10
+    lblsoalke.Text = 4
+    lblsoal.Text = data.soal4
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal3 And txtjawab.Text <> data.jawab3 Then
+    data.nilai3 = 0
+    lblsoalke.Text = 4
+    lblsoal.Text = data.soal4
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal4 And txtjawab.Text = data.jawab4 Then
+    data.nilai4 = 10
+    lblsoalke.Text = 5
+    lblsoal.Text = data.soal5
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal4 And txtjawab.Text <> data.jawab4 Then
+    data.nilai5 = 0
+    lblsoalke.Text = 5
+    lblsoal.Text = data.soal5
+    txtjawab.SetFocus
+    txtjawab.Text = ""
+  Else If lblsoal.Text = data.soal5 And txtjawab.Text = data.jawab5 Then
+    data.nilai5 = 10
+    total.Show
+    Me.Close
+  Else If lblsoal.Text = data.soal5 And txtjawab.Text <> data.jawab5 Then
+    data.nilai5 = 0
+    total.Show
+    Me.Close
+  Endif
+
+End

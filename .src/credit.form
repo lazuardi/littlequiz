@@ -1,0 +1,48 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(37.5714,15,100,50)
+  Text = ("Credits")
+  Resizable = False
+  { Label1 Label
+    MoveScaled(4,9,93,9)
+    Font = Font["Bold,+7"]
+    Text = ("Universitas Bina Sarana Informatika Bandung")
+    Alignment = Align.Center
+  }
+  { Label2 Label
+    MoveScaled(6,27,51,7)
+    Font = Font["Bold,+3"]
+    Text = ("Lazuardi Nuansa Putra (17120140)")
+    Alignment = Align.Center
+  }
+  { Label3 Label
+    MoveScaled(6,39,51,7)
+    Font = Font["Bold,+3"]
+    Text = ("Ria Aryani (17120110)")
+    Alignment = Align.Center
+  }
+  { Label4 Label
+    MoveScaled(6,33,51,7)
+    Font = Font["Bold,+3"]
+    Text = ("Shienna Velinda (17120100)")
+    Alignment = Align.Center
+  }
+  { Label5 Label
+    MoveScaled(36,19,26,7)
+    Font = Font["Bold,+3"]
+    Text = ("- Little Quiz -")
+    Alignment = Align.Center
+  }
+  { cmdok Button
+    MoveScaled(63,33,22,7)
+    Font = Font["Bold,+1"]
+    Text = ("OK")
+  }
+  { Label6 Label
+    MoveScaled(12,3,72,7)
+    Font = Font["Bold,+3"]
+    Text = ("Special Thanks To : Mr. Indriatno Arie Wibowo")
+    Alignment = Align.Center
+  }
+}

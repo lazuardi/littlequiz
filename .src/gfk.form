@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(37.5714,18.7143,99,44)
+  Text = ("Little Quiz")
+  Resizable = False
+  { lblsoal Label
+    MoveScaled(3,9,92,9)
+    Font = Font["+5"]
+    Alignment = Align.Center
+    Border = Border.Etched
+  }
+  { Label1 Label
+    MoveScaled(4,1,10,6)
+    Text = ("Player :")
+  }
+  { lblplayer Label
+    MoveScaled(13,1,10,6)
+    Font = Font["Bold"]
+  }
+  { Label2 Label
+    MoveScaled(58,1,8,6)
+    Text = ("Soal Ke :")
+  }
+  { lblsoalke Label
+    MoveScaled(67,1,6,6)
+    Font = Font["Bold"]
+  }
+  { lblsoalke2 Label
+    MoveScaled(69,1,8,6)
+    Font = Font["Bold"]
+    Text = ("/ 5 Soal")
+  }
+  { txtjawab TextBox
+    MoveScaled(22,21,56,7)
+    Font = Font["+3"]
+    Alignment = Align.Center
+  }
+  { cmdnext Button
+    MoveScaled(29,31,19,8)
+    Font = Font["+2"]
+    Text = ("Next")
+  }
+  { cmdexit Button
+    MoveScaled(50,31,19,8)
+    Font = Font["+2"]
+    Text = ("Exit")
+  }
+}

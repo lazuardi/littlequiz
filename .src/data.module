@@ -1,0 +1,19 @@
+' Gambas module file
+
+Public nama As String
+Public soal1 As String = "Dimana Ibukota Indonesia?"
+Public soal2 As String = "Siapa Presiden Pertama Indonesia?"
+Public soal3 As String = "Hewan Pemankan Daging Disebut..."
+Public soal4 As String = "Kota Yang Disebut Kota Hujan Adalah..."
+Public soal5 As String = "Apa Bahasa Inggrisnya Kucing?"
+Public jawab1 As String = "jakarta"
+Public jawab2 As String = "soekarno"
+Public jawab3 As String = "karnivora"
+Public jawab4 As String = "bogor"
+Public jawab5 As String = "cat"
+Public nilai1 As Integer
+Public nilai2 As Integer
+Public nilai3 As Integer
+Public nilai4 As Integer
+Public nilai5 As Integer
+Public total As Integer
